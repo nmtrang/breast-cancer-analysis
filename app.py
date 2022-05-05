@@ -34,7 +34,7 @@ selected_answer = [st.selectbox(f'Select {column}', df[column].unique(
 ).tolist()) for column in df.columns.tolist()[1:]]
 
 
-model = pickle.load(open('./svm_model', 'rb'))
+model = pickle.load(open('./stack_model', 'rb'))
 
 
 encoder = LabelEncoder()
