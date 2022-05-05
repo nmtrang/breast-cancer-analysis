@@ -35,7 +35,7 @@ selected_answer = [st.selectbox(f'Select {column}', df[column].unique(
 
 
 # load stack model
-model = pickle.load(open('./svm_model', 'rb'))
+model = pickle.load(open('./stack_model', 'rb'))
 
 # encode user input to numerical values for the model to understand
 encoder = LabelEncoder()
