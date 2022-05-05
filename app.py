@@ -43,14 +43,14 @@ encoder = LabelEncoder()
 i = 0
 encoded_answer = []
 
-"""
-1. for each attribute, make a dictionary with the key holds each 
-unique value of that attribute and the value is the labeled value
-2. with the current attribute will associate with the current value 
-in the selected_answer
-3. append its associate labeled value into encoded_answer then go to 
-the next attribute & next index of the list in the next iteration
-"""
+
+# 1. for each attribute, make a dictionary with the key holds each 
+# unique value of that attribute and the value is the labeled value
+# 2. with the current attribute will associate with the current value 
+# in the selected_answer
+# 3. append its associate labeled value into encoded_answer then go to 
+# the next attribute & next index of the list in the next iteration
+
 for attr in df.iloc[:, 1:]:
     encoder.fit(df[attr])  # for each attribute
     label_mapping = dict(
