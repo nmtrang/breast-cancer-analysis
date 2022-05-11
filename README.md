@@ -58,7 +58,6 @@ The class/label is ``class`` with ``no-recurrence-events`` and ``recurrence-even
 
 ## Tackle imbalanced dataset
 
-<<<<<<< HEAD
 ### Initial imbalance
 
 ![image](./images/initial-imbalance.png)
