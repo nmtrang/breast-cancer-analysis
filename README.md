@@ -1,6 +1,6 @@
 
 
-# Breast Cancer Analysis & Prediction
+# Breast Cancer Analysis & Prediction (still in the process of improving cuz I found some flaws lately...)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/nmtrang/breast-cancer-analysis/app.py)
 
 
